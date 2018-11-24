@@ -1,0 +1,21 @@
+{
+  "name": "dotabuffscraper-2",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "private": true,
+  "scripts": {
+    "test": "typescript-node-scripts test",
+    "start": "typescript-node-scripts start",
+    "build": "typescript-node-scripts build",
+    "lint": "tslint --project ."
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.9",
+    "@types/node": "^10.12.10",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "typescript-node-scripts": "^1.0.3"
+  }
+}
