@@ -10,12 +10,16 @@
     "lint": "tslint --project ."
   },
   "devDependencies": {
+    "@types/cheerio": "^0.22.9",
     "@types/jest": "^23.3.9",
     "@types/node": "^10.12.10",
     "tslint": "^5.11.0",
-    "typescript": "^3.1.6"
+    "typescript": "^3.1.6",
+    "typescript-node-scripts": "^1.0.3"
   },
   "dependencies": {
-    "typescript-node-scripts": "^1.0.3"
+    "@akanass/rx-http-request": "^3.1.0",
+    "cheerio": "^1.0.0-rc.2",
+    "rxjs": "^6.3.3"
   }
 }
